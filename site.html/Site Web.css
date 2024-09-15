@@ -1,0 +1,75 @@
+﻿/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2B2B2B; /* Gris anthracite */
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF; /* Texte blanc */
+}
+
+/* En-tête */
+header {
+    background-color: #E31C4B; /* Rose/rouge vif */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.school-logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 50px;
+    height: auto;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Section principale */
+.main-section {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #333333; /* Noir foncé */
+    border-radius: 10px;
+}
+
+    .main-section h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    .main-section p {
+        font-size: 1.2em;
+        margin-bottom: 30px;
+    }
+
+.main-button {
+    background-color: #E31C4B; /* Rose/rouge vif */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+    .main-button:hover {
+        background-color: #FF2E5E; /* Rose/rouge légèrement plus clair */
+    }
+
+/* Pied de page */
+footer {
+    background-color: #E31C4B; /* Rose/rouge vif */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
